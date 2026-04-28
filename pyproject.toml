@@ -1,0 +1,35 @@
+[project]
+name = "tech-challenge-churn"
+version = "0.1.0"
+description = "Tech Challenge Fase 1 - Previsao de Churn com MLP PyTorch"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "torch",
+    "mlflow",
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "joblib",
+    "pandera",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
