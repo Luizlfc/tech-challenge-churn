@@ -1,0 +1,4 @@
+model_name,accuracy,precision,recall,f1_score,roc_auc
+DummyClassifier,0.6217,0.2891,0.2914,0.2903,0.5163
+LogisticRegression,0.807,0.6584,0.5668,0.6092,0.8416
+RandomForest,0.7857,0.6216,0.492,0.5493,0.8244
