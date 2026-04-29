@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+torch
+mlflow
+fastapi
+uvicorn
+pydantic
+joblib
+pandera
+
+[dev]
+pytest
+ruff

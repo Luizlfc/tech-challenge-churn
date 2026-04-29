@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: tech-challenge-churn
+Version: 0.1.0
+Summary: Tech Challenge Fase 1 - Previsao de Churn com MLP PyTorch
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: mlflow
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: joblib
+Requires-Dist: pandera
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
